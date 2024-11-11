@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = '7934204319:AAFzbu4qX1QjM3EQT4j3x5TZ7amzQa9BcBY'
-ADMIN_ID = 6893810297
+BOT_TOKEN = 'Введите токен своего бота'
+ADMIN_ID = 123456788 #Введите свой admin_id
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет! Отправь мне сообщение, и я передам его администратору.")
